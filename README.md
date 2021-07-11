@@ -1,2 +1,11 @@
-# Fresh_Laravel_Project_with_Multi_Tenancy
- A Fresh Laravel 8 project with Multi Tenancy
+Commands to Run the Project
+
+# php artisan migrate
+# php artisan db:seed --class=PermissionTableSeeder
+# php artisan db:seed --class=CreateAdminUserSeeder
+# php artisan storage:link
+
+Then a Super Admin Will be created . 
+ID : superadmin@gmail.com
+phone : 01731587548
+pass : 1234
