@@ -1,11 +1,22 @@
-Commands to Run the Project
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
 
-# php artisan migrate
-# php artisan db:seed --class=PermissionTableSeeder
-# php artisan db:seed --class=CreateAdminUserSeeder
-# php artisan storage:link
-
-Then a Super Admin Will be created . 
-ID : superadmin@gmail.com
-phone : 01731587548
-pass : 1234
+<h1 style="color:red">A Fresh Laravel 8 project with Multi Tenancy , Role , Admin LTE</h1>
+<h3 style="color:blue">Commads to run the project</h1>    
+<ul>
+  <li>composer install</li>
+  <li>php artisan migrate</li>
+  <li>php artisan db:seed --class=PermissionTableSeeder</li>
+  <li>php artisan db:seed --class=CreateAdminUserSeeder</li>
+</ul>
+<p>
+Then a Super Admin Will be created<br> 
+ID : superadmin@gmail.com <br>
+phone : 01731587548<br>
+pass : 1234<br>
+</p>    
+</body>
+</html>
